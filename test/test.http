@@ -1,0 +1,14 @@
+### create
+curl http://localhost:3000/api/users -d '{"name": "kake", "email": "qwe@qwe.qw"}'
+
+### Get one
+curl http://localhost:3000/api/users/4
+
+### Get all
+curl http://localhost:3000/api/users
+
+### update
+curl http://localhost:3000/api/users/5 -d '{"name": "bake", "email": "qwe@qe.qw"}' -X PUT
+
+### delete
+curl -X DELETE http://localhost:3000/api/users/6
